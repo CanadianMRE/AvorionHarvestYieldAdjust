@@ -11,13 +11,13 @@ meta =
     name = "HarvestYieldAdjuster",
 
     -- Title of your mod that will be displayed to players
-    title = "Mod Title",
+    title = "Harvest Yield Adjust",
 
     -- Type of your mod, either "mod" or "factionpack"
     type = "mod",
 
     -- Description of your mod that will be displayed to players
-    description = "This is the mod description. Please fill it out for more clarity.",
+    description = "This mod allows you to edit the yields of various harvesting and salvaging operations.",
 
     -- Insert all authors into this list
     authors = {"CanadianMRE"},
@@ -44,7 +44,7 @@ meta =
     --      {id = "OptionalMod", min = "0.2", optional = true}, -- we support OptionalMod optionally, starting at version 0.2
     -- },
     dependencies = {
-
+        {id = "ConfigLib"}
     },
 
     -- Set to true if the mod only has to run on the server. Clients will get notified that the mod is running on the server, but they won't download it to themselves
@@ -58,5 +58,5 @@ meta =
     saveGameAltering = false,
 
     -- Contact info for other users to reach you in case they have questions
-    contact = "",
+    contact = "Discord: CanadianMRE#0001    Github: https://github.com/CanadianMRE",
 }
